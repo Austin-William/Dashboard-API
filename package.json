@@ -1,0 +1,24 @@
+{
+  "name": "b-dev-500-par-5-1-dashboard-vincent.pichot",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd client/ && npm start\" \"cd server/ && npm run server\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechPromo2024/B-DEV-500-PAR-5-1-dashboard-vincent.pichot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechPromo2024/B-DEV-500-PAR-5-1-dashboard-vincent.pichot/issues"
+  },
+  "homepage": "https://github.com/EpitechPromo2024/B-DEV-500-PAR-5-1-dashboard-vincent.pichot#readme",
+  "dependencies": {
+    "concurrently": "^6.4.0"
+  }
+}

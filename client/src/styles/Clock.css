@@ -1,0 +1,18 @@
+.Clock {
+    position: relative;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 1%;
+    background-color: transparent;
+    box-shadow: 0 0 6px 1px #fff;
+    color: white;
+    overflow: hidden;
+}
+
+.Clock-title {
+    font-size: 3.5em;
+    font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.App {
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(76, 190, 194);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

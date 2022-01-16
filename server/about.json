@@ -1,0 +1,119 @@
+{
+    "client": {
+        "host": "10.101.53.35"
+    },
+    "server": {
+        "current_time": 1531680780,
+        "services": [
+            {
+                "name": "Weather",
+                "widgets": [
+                    {
+                        "name": "Weather widget",
+                        "params": [
+                            {
+                                "name": "city",
+                                "type": "string"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Youtube",
+                "widgets": [
+                    {
+                        "name": "Youtube",
+                        "description": "Youtube widget",
+                        "params": [
+                            {
+                                "name": "search",
+                                "type": "string"
+                            },
+                            {
+                                "name": "urlvideo",
+                                "type": "string"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Twitter",
+                "widgets": [
+                    {
+                        "name": "Twitter",
+                        "description": "Twitter trends widget",
+                        "params": [
+                            {
+                                "name": "link",
+                                "type": "string"
+                            },
+                            {
+                                "name": "number",
+                                "type": "integer"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Github",
+                "widgets": [
+                    {
+                        "name": "Github",
+                        "description": "Github profile widget",
+                        "params": [
+                            {
+                                "name": "link",
+                                "type": "string"
+                            },
+                            {
+                                "name": "number",
+                                "type": "integer"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Unsplash",
+                "widgets": [
+                    {
+                        "name": "Unsplash",
+                        "description": "Unsplash photo widget",
+                        "params": [
+                            {
+                                "name": "link",
+                                "type": "string"
+                            },
+                            {
+                                "name": "number",
+                                "type": "integer"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Reddit",
+                "widgets": [
+                    {
+                        "name": "Reddit",
+                        "description": "Reddit search widget",
+                        "params": [
+                            {
+                                "name": "link",
+                                "type": "string"
+                            },
+                            {
+                                "name": "search",
+                                "type": "string"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

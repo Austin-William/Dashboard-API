@@ -1,0 +1,13 @@
+FROM node:14.15.1
+
+LABEL version="1.0.0"
+LABEL description="Server for the application"
+LABEL maintainer="austin-william.lo@epitech.eu | vincent.pichot@epitech.eu"
+LABEL author="Austin-William Lo | Vincent Pichot"
+
+WORKDIR /server
+COPY ["package.json", "index.js", "/api", "/routes", "about.json", "/server/"]
+RUN npm install
+COPY . /server
+EXPOSE 8080
+CMD ["npm", "run", "server"]

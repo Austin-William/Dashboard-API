@@ -1,0 +1,17 @@
+.Header {
+  background-color: #282c34;
+  min-height: 6vh;
+  display: list-item;
+  color: white;
+}
+
+.Header-title {
+  font-size: 1.5em;
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+.Header-collapse {
+  margin-top: 6px;
+  font-weight: bold;
+}

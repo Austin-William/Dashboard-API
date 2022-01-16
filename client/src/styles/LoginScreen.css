@@ -1,0 +1,97 @@
+.LoginScreen {
+    background-color: rgb(58, 58, 58);
+    height: 100%;
+}
+
+.LoginScreen-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20%;
+    margin-top: 15%;
+}
+
+.LoginScreen-login-button {
+    padding: 12px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-bottom: 20%;
+}
+
+.LoginScreen-title {
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.LoginScreen-label-password {
+    color: whitesmoke;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.LoginScreen-label-email {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.LoginScreen-error-message-connection {
+    color: red;
+    text-align: center;
+}
+
+
+.LoginScreen-small-required {
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+}
+
+.LoginScreen-small-missing {
+    color: red;
+    font-size: 12px;
+}
+
+.LoginScreen-small-missing {
+    color: rgb(48, 216, 42);
+    font-size: 12px;
+}
+
+.LoginScreen-already-account {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.LoginScreen-already-account-link {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.LoginScreen-already-account-link:hover {
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+}
+
+.LoginScreen-hr {
+    border: 0;
+    height: 1px;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: linear-gradient(to right, rgba(207, 207, 207, 0.75), rgba(207, 207, 207, 0.329), rgba(207, 207, 207, 0.75));
+}

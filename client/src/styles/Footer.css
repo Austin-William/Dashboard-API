@@ -1,0 +1,43 @@
+.Footer {
+    background-color: #2c2c2c;
+    padding: 20px;
+}
+
+.Footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer-title-about {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Footer-about {
+    color: #fff;
+    font-size: 14px;
+}
+
+.Footer-title-contact {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Footer-contact {
+    color: #fff;
+    font-size: 14px;
+}
+
+.Footer-title-social {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Footer-social {
+    color: #fff;
+    font-size: 14px;
+}
