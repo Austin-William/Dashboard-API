@@ -2,11 +2,11 @@
 
 - 2 way to launch the application:
 
-    - 1. With npm:
+    - With npm:
         ```
         npm run dev
         ```
-    - 2. With Docker Compose:
+    - With Docker Compose:
         ```
         docker-compose build && docker-compose up
         ```
